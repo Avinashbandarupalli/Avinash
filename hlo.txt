@@ -1,0 +1,15 @@
+ def calculate_score(rolls):
+    total_score = 0
+    for roll in rolls:
+        if roll == 1:
+            total_score = 0
+        elif roll == 6:
+            total_score += 5
+        else:
+            total_score += roll
+    return total_score
+    
+rolls = list(map(int, input().split()))
+result = calculate_score(rolls)
+print(result)
+ game dice
