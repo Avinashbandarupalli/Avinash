@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Addition {
+public class Subtraction {
     public static void main(String[] args) {
         // Create a scanner object to take input from the user
         Scanner scanner = new Scanner(System.in);
@@ -12,13 +12,10 @@ public class Addition {
         System.out.print("Enter second number: ");
         double num2 = scanner.nextDouble();
 
-        // Add the numbers
-        double sum = num1 + num2;
+        // Subtract the numbers
+        double difference = num1 - num2;
 
         // Display the result
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+        System.out.println("The difference between " + num1 + " and " + num2 + " is: " + difference);
         
-        // Close the scanner
-        scanner.close();
-    }
-}
+        // Close 
